@@ -9,7 +9,7 @@ yaml.dump(data,file)  写入yaml  data写入数据 file文件
 '''
 def weixin_token():
         '''获取token'''
-        url = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx48fb962be8a2f3b0&secret=cb64088790194af57ca1fae13f3bbbfb'
+        url = ''
         response = requests.get(url=url)
         # 格式化服务端返回的值
         result = response.json()
